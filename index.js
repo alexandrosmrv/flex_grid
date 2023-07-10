@@ -43,3 +43,30 @@ $(document).ready(function(){
     },function(){
         $(this).removeClass("finalcontainerjs");
     });
+
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(document).scrollTop()>3600 ){
+                $(".lastphoto1").css("visibility","visible",);
+            } else
+            {$(".lastphoto1").css("visibility","hidden");
+            }        });
+            });
+
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(document).scrollTop()>4150){
+                $(".lastphoto2").css("visibility","visible");
+            } else
+            {$(".lastphoto2").css("visibility","hidden");
+            }        });
+            });
+       
+   $(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(document).scrollTop()>5050){
+            $(".lastphoto3").fadeOut(2000).fadeIn(2000);
+        }
+        });
+   });
+            

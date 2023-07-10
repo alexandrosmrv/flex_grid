@@ -120,6 +120,27 @@ body{
     text-align: center;
     padding-top: 5rem;
 }
+/* lastcontainer */
+.lastphoto1{
+    height: 50%;
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    padding-top: 5rem;;
+    
+}
+.lastphoto2{
+    height: 50%;
+    width: 50%;
+    display:block;
+    margin-right: auto;
+}
+.lastphoto3{
+    height: 60%;
+    width: 65%;
+    display:block;
+    margin: auto;
+}
 
 
 
