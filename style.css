@@ -150,8 +150,7 @@ body{
     text-decoration: underline;
 }
 .photolarge{
-height: 13rem;
-   width: 19.5rem;
+transform: scale(1.2);
 }
 .photoRotate{
     transform: rotate3d(1, 1, 1, 5deg);
@@ -170,6 +169,7 @@ height: 13rem;
 }
 .finalcontainerjs{
     border-bottom-color:rgb(6, 46, 23);
+    border-radius: 20px;
     
 }
 
